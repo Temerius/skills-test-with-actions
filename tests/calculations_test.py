@@ -88,4 +88,16 @@ def test_get_nth_fibonacci_ten():
     assert result == 55
 
 
+def test_get_nth_fibonacci_eleven():
+    """Test with n=11."""
+    # Arrange
+    n = 11
+
+    # Act
+    result = get_nth_fibonacci(n)
+
+    # Assert
+    assert result == 89
+
+
 
